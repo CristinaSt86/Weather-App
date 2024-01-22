@@ -1,0 +1,17 @@
+input {
+  margin: 0 24px;
+  width: -webkit-fill-available;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 0 0 12px 12px;
+  box-shadow: inset 350px 350px rgba(0, 0, 0, 0.15);
+}
+
+input:focus-visible {
+  box-shadow: none;
+}
+
+input:focus-visible {
+  border: none;
+  outline: none;
+}
